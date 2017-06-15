@@ -38,7 +38,13 @@ const NavBar = () => {
        to={'/resume'}>
         resume
       </NavLink>
-
+      <NavLink
+      onClick={()=>{scrollAfterSearch('')}}
+       className="nav-link"
+       activeClassName='selected'
+       to={'/projects'}>
+        projects
+      </NavLink>
       <NavLink
       onClick={()=>{scrollAfterSearch('phone-container')}}
        className="nav-link"

@@ -1,0 +1,28 @@
+.projects{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.space-img, .static-comp-img{
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin:0px;
+  display: inline-flex;
+}
+.static-comp-img{
+background-image:url('./Icon-Img-Folder/static.png');
+}
+
+.space-img{
+  background-image:url('./Icon-Img-Folder/space.png');
+}
+
+
+.img-container{
+    width: 300px;
+    height:200px;
+    padding:5px;
+}
