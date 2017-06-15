@@ -14,6 +14,9 @@ const Projects = () => {
       <a href="https://github.com/cjorda15/weathrly" className="img-container">
         <div className = "weather-img"></div>
       </a>
+      <a href="https://github.com/cjorda15/NewNews" className="img-container">
+        <div className = "news-img"></div>
+      </a>
     </div>
   )
 }

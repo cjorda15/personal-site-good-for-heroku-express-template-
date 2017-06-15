@@ -5,7 +5,7 @@
   margin: 0px auto;
 }
 
-.space-img, .static-comp-img, .weather-img{
+.space-img, .static-comp-img, .weather-img, .news-img{
   background-size: cover;
   width: 300px;
   height: 200px;
@@ -22,6 +22,10 @@ background-image:url('./Icon-Img-Folder/static.png');
 
 .weather-img{
   background-image:url('./Icon-Img-Folder/weather.png')
+}
+
+.news-img{
+  background-image: url('./Icon-Img-Folder/news.png')
 }
 
 
