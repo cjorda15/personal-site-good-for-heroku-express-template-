@@ -13327,6 +13327,11 @@ var Projects = function Projects() {
       "a",
       { href: "https://evening-harbor-90728.herokuapp.com", className: "img-container" },
       _react2.default.createElement("div", { className: "space-img" })
+    ),
+    _react2.default.createElement(
+      "a",
+      { href: "https://github.com/cjorda15/weathrly", className: "img-container" },
+      _react2.default.createElement("div", { className: "weather-img" })
     )
   );
 };
@@ -14343,7 +14348,7 @@ exports = module.exports = __webpack_require__(15)(undefined);
 
 
 // module
-exports.push([module.i, ".projects{\n  display: flex;\n  flex-direction: column;\n  width: 80%;\n  margin: 0px auto;\n}\n\n.space-img, .static-comp-img{\n  background-size: cover;\n  width: 300px;\n  height: 200px;\n  margin:0px;\n  display: inline-flex;\n}\n.static-comp-img{\nbackground-image:url(" + __webpack_require__(271) + ");\n}\n\n.space-img{\n  background-image:url(" + __webpack_require__(270) + ");\n}\n\n\n.img-container{\n    width: 300px;\n    height:200px;\n    padding:5px;\n}\n", ""]);
+exports.push([module.i, ".projects{\n  display: flex;\n  flex-direction: column;\n  width: 80%;\n  margin: 0px auto;\n}\n\n.space-img, .static-comp-img, .weather-img{\n  background-size: cover;\n  width: 300px;\n  height: 200px;\n  margin:0px;\n  display: inline-flex;\n}\n.static-comp-img{\nbackground-image:url(" + __webpack_require__(271) + ");\n}\n\n.space-img{\n  background-image:url(" + __webpack_require__(270) + ");\n}\n\n.weather-img{\n  background-image:url('/Icon-Img-Folder/weather.png')\n}\n\n\n.img-container{\n    width: 300px;\n    height:200px;\n    padding:5px;\n}\n", ""]);
 
 // exports
 

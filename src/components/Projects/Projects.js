@@ -11,6 +11,9 @@ const Projects = () => {
       <a href="https://evening-harbor-90728.herokuapp.com" className="img-container">
         <div className = "space-img"></div>
       </a>
+      <a href="https://github.com/cjorda15/weathrly" className="img-container">
+        <div className = "weather-img"></div>
+      </a>
     </div>
   )
 }
