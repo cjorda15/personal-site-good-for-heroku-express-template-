@@ -39,7 +39,7 @@ const NavBar = () => {
         resume
       </NavLink>
       <NavLink
-      onClick={()=>{scrollAfterSearch('')}}
+      onClick={()=>{scrollAfterSearch('projects')}}
        className="nav-link"
        activeClassName='selected'
        to={'/projects'}>

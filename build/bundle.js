@@ -13272,7 +13272,7 @@ var NavBar = function NavBar() {
       _reactRouterDom.NavLink,
       {
         onClick: function onClick() {
-          scrollAfterSearch('');
+          scrollAfterSearch('projects');
         },
         className: 'nav-link',
         activeClassName: 'selected',
