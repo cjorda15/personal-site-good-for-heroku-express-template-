@@ -13442,7 +13442,7 @@ var Projects = function Projects() {
     ),
     _react2.default.createElement(
       "a",
-      { href: "https://github.com/cjorda15/NewNews", className: "img-container" },
+      { href: "https://damp-peak-42271.herokuapp.com/", className: "img-container" },
       _react2.default.createElement("div", { className: "star-img" })
     )
   );
