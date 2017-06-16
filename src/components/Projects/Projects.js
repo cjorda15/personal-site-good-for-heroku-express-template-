@@ -4,7 +4,7 @@ import "./Projects.css"
 
 const Projects = () => {
   return(
-    <div class="projects" id="projects">
+    <div className="projects" id="projects">
       <a  href="https://cjorda15.github.io/cj-comp-challenge-3/" className="img-container">
         <div className = "static-comp-img"></div>
       </a>
@@ -16,6 +16,9 @@ const Projects = () => {
       </a>
       <a href="https://github.com/cjorda15/NewNews" className="img-container">
         <div className = "news-img"></div>
+      </a>
+      <a href="https://damp-peak-42271.herokuapp.com/" className="img-container">
+        <div className = "star-img"></div>
       </a>
     </div>
   )

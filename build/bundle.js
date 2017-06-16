@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 278);
+/******/ 	return __webpack_require__(__webpack_require__.s = 279);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -5823,7 +5823,7 @@ var _resolvePathname = __webpack_require__(254);
 
 var _resolvePathname2 = _interopRequireDefault(_resolvePathname);
 
-var _valueEqual = __webpack_require__(277);
+var _valueEqual = __webpack_require__(278);
 
 var _valueEqual2 = _interopRequireDefault(_valueEqual);
 
@@ -13419,7 +13419,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Projects = function Projects() {
   return _react2.default.createElement(
     "div",
-    { "class": "projects", id: "projects" },
+    { className: "projects", id: "projects" },
     _react2.default.createElement(
       "a",
       { href: "https://cjorda15.github.io/cj-comp-challenge-3/", className: "img-container" },
@@ -13439,6 +13439,11 @@ var Projects = function Projects() {
       "a",
       { href: "https://github.com/cjorda15/NewNews", className: "img-container" },
       _react2.default.createElement("div", { className: "news-img" })
+    ),
+    _react2.default.createElement(
+      "a",
+      { href: "https://github.com/cjorda15/NewNews", className: "img-container" },
+      _react2.default.createElement("div", { className: "star-img" })
     )
   );
 };
@@ -14455,7 +14460,7 @@ exports = module.exports = __webpack_require__(15)(undefined);
 
 
 // module
-exports.push([module.i, ".projects{\n  display: flex;\n  flex-direction: column;\n  width: 80%;\n  margin: 0px auto;\n}\n\n.space-img, .static-comp-img, .weather-img, .news-img{\n  background-size: cover;\n  width: 300px;\n  height: 200px;\n  margin:0px;\n  display: inline-flex;\n}\n.static-comp-img{\nbackground-image:url(" + __webpack_require__(272) + ");\n}\n\n.space-img{\n  background-image:url(" + __webpack_require__(271) + ");\n}\n\n.weather-img{\n  background-image:url(" + __webpack_require__(273) + ")\n}\n\n.news-img{\n  background-image: url(" + __webpack_require__(270) + ")\n}\n\n\n.img-container{\n    width: 300px;\n    height:200px;\n    padding:5px;\n}\n", ""]);
+exports.push([module.i, ".projects{\n  display: flex;\n  flex-direction: column;\n  width: 80%;\n  margin: 0px auto;\n}\n\n.space-img, .static-comp-img, .weather-img, .news-img, .space{\n  background-size: cover;\n  width: 300px;\n  height: 200px;\n  margin:0px;\n  display: inline-flex;\n}\n.static-comp-img{\nbackground-image:url(" + __webpack_require__(273) + ");\n}\n\n.space-img{\n  background-image:url(" + __webpack_require__(271) + ");\n}\n\n.weather-img{\n  background-image:url(" + __webpack_require__(274) + ")\n}\n\n.news-img{\n  background-image: url(" + __webpack_require__(270) + ")\n}\n\n.star{\n  background-image: url(" + __webpack_require__(272) + ")\n}\n\n\n\n.img-container{\n    width: 300px;\n    height:200px;\n    padding:5px;\n}\n", ""]);
 
 // exports
 
@@ -14469,7 +14474,7 @@ exports = module.exports = __webpack_require__(15)(undefined);
 
 
 // module
-exports.push([module.i, ".resume-container{\n  width: 100vw;\n  margin-top: 10px;\n  display: flex;\n  flex-direction: column;\n  max-width: 1300px;\n}\n\n.resume1{\n  height: 680px;\n  min-width:340px;\n  opacity: 0.95;\n  background-size: contain;;\n  background-repeat: no-repeat;\n  background-image: url(" + __webpack_require__(274) + ");\n}\n\n.resume2{\n  height: 680px;\n  min-width:340px;\n  opacity: 0.95;\n  background-size: contain;;\n  background-repeat: no-repeat;\n  background-image: url(" + __webpack_require__(275) + ");\n}\n\n@media (min-width:1100px){\n  .resume-container{\n    flex-direction: row;\n    justify-content: space-around;\n  }\n\n  .resume1, .resume2{\n    width: 700px;\n  }\n\n}\n", ""]);
+exports.push([module.i, ".resume-container{\n  width: 100vw;\n  margin-top: 10px;\n  display: flex;\n  flex-direction: column;\n  max-width: 1300px;\n}\n\n.resume1{\n  height: 680px;\n  min-width:340px;\n  opacity: 0.95;\n  background-size: contain;;\n  background-repeat: no-repeat;\n  background-image: url(" + __webpack_require__(275) + ");\n}\n\n.resume2{\n  height: 680px;\n  min-width:340px;\n  opacity: 0.95;\n  background-size: contain;;\n  background-repeat: no-repeat;\n  background-image: url(" + __webpack_require__(276) + ");\n}\n\n@media (min-width:1100px){\n  .resume-container{\n    flex-direction: row;\n    justify-content: space-around;\n  }\n\n  .resume1, .resume2{\n    width: 700px;\n  }\n\n}\n", ""]);
 
 // exports
 
@@ -14483,7 +14488,7 @@ exports = module.exports = __webpack_require__(15)(undefined);
 
 
 // module
-exports.push([module.i, "*{\n  padding:0px;\n  margin: 0px;\n}\n\nbody {\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n  background-size: cover;\n  background-image: url(" + __webpack_require__(276) + ");\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  width: 100vw;\n  height: 100vh;\n  max-width: 1300px;\n}\n", ""]);
+exports.push([module.i, "*{\n  padding:0px;\n  margin: 0px;\n}\n\nbody {\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n  background-size: cover;\n  background-image: url(" + __webpack_require__(277) + ");\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  width: 100vw;\n  height: 100vh;\n  max-width: 1300px;\n}\n", ""]);
 
 // exports
 
@@ -28322,34 +28327,40 @@ module.exports = __webpack_require__.p + "00a7f8c49b775468c93889b8026938cf.png";
 /* 272 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "bd7231668ec94cea9acb126ede4b5e9d.png";
+module.exports = __webpack_require__.p + "85630c3e37ebf981fc4dba49ec3d9046.png";
 
 /***/ }),
 /* 273 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "1f5285920d9f4d4d2bd5a8867a6af5ab.png";
+module.exports = __webpack_require__.p + "bd7231668ec94cea9acb126ede4b5e9d.png";
 
 /***/ }),
 /* 274 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "762629fe4917a6a37aec0d686491c9d2.jpg";
+module.exports = __webpack_require__.p + "1f5285920d9f4d4d2bd5a8867a6af5ab.png";
 
 /***/ }),
 /* 275 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "82d0b8d7fd3333b7d363afb8006cfaa0.jpg";
+module.exports = __webpack_require__.p + "762629fe4917a6a37aec0d686491c9d2.jpg";
 
 /***/ }),
 /* 276 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "eedd288afbcafad2b1f65e7a9cc7d108.jpg";
+module.exports = __webpack_require__.p + "82d0b8d7fd3333b7d363afb8006cfaa0.jpg";
 
 /***/ }),
 /* 277 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "eedd288afbcafad2b1f65e7a9cc7d108.jpg";
+
+/***/ }),
+/* 278 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28395,7 +28406,7 @@ var valueEqual = function valueEqual(a, b) {
 exports.default = valueEqual;
 
 /***/ }),
-/* 278 */
+/* 279 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(108);
