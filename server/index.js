@@ -32,12 +32,7 @@ app.get('/', (req,res) => {
   res.sendFile(path.resolve(__dirname+"/../src/index.html"))
 })
 
-app.use('/projects', (req,res) => {
-  res.sendFile(path.join(__dirname,'llll'))
-
-})
-
-app.get('/*', function (req, res) { path.resolve(__dirname, "src/index.html") });
+app.get('/*', function (req, res) { path.join(__dirname, "src/index.html") });
 
 
 

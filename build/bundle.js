@@ -14460,7 +14460,7 @@ exports = module.exports = __webpack_require__(15)(undefined);
 
 
 // module
-exports.push([module.i, ".projects{\n  display: flex;\n  flex-direction: column;\n  width: 80%;\n  margin: 0px auto;\n}\n\n.space-img, .static-comp-img, .weather-img, .news-img, .star-img{\n  background-size: cover;\n  width: 300px;\n  height: 200px;\n  margin:0px;\n  display: inline-flex;\n}\n.static-comp-img{\nbackground-image:url(" + __webpack_require__(273) + ");\n}\n\n.space-img{\n  background-image:url(" + __webpack_require__(271) + ");\n}\n\n.weather-img{\n  background-image:url(" + __webpack_require__(274) + ")\n}\n\n.news-img{\n  background-image: url(" + __webpack_require__(270) + ")\n}\n\n.star-img{\n  background-image: url(" + __webpack_require__(272) + ")\n}\n\n\n\n.img-container{\n    width: 300px;\n    height:200px;\n    padding:5px;\n}\n", ""]);
+exports.push([module.i, ".projects{\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  width: 80%;\n  margin: 0px auto;\n}\n\n.space-img, .static-comp-img, .weather-img, .news-img, .star-img{\n  background-size: cover;\n  width: 300px;\n  height: 200px;\n  margin:0px;\n  display: inline-flex;\n}\n.static-comp-img{\nbackground-image:url(" + __webpack_require__(273) + ");\n}\n\n.space-img{\n  background-image:url(" + __webpack_require__(271) + ");\n}\n\n.weather-img{\n  background-image:url(" + __webpack_require__(274) + ")\n}\n\n.news-img{\n  background-image: url(" + __webpack_require__(270) + ")\n}\n\n.star-img{\n  background-image: url(" + __webpack_require__(272) + ")\n}\n\n\n\n.img-container{\n    width: 300px;\n    height:200px;\n    padding:5px;\n}\n", ""]);
 
 // exports
 

@@ -1,6 +1,7 @@
 .projects{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   width: 80%;
   margin: 0px auto;
 }
