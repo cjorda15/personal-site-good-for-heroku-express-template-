@@ -1,6 +1,8 @@
 const express = require('express')
 const app = express()
 const path = require('path')
+const fallback = require('express-history-api-fallback')
+const root = `${__dirname}/src`
 
 
 
@@ -19,10 +21,12 @@ if(process.env.NODE_ENV !== 'production'){
   app.use(webpackMiddleware(webpack(webpackConfig)))
 }else{
   app.use(express.static('src'))
-  app.get('*', (req,res) => {
-    res.sendFile(path.join(__dirname,'src/index.html'))
-  })
+//   app.get('*', (req,res) => {
+//     res.sendFile(path.join(__dirname,'src/index.html'))
+//   })
 }
+
+app.use(fallback('index.html', { root }))
 
 app.get('/projects', (req,res)=> {
   res.sendFile(path.resolve(__dirname+"/../src/index.html"))
