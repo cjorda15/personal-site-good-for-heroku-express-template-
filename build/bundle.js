@@ -13432,7 +13432,7 @@ var Projects = function Projects() {
     ),
     _react2.default.createElement(
       "a",
-      { href: "https://github.com/cjorda15/weathrly", className: "img-container" },
+      { href: "https://stark-hamlet-69045.herokuapp.com/", className: "img-container" },
       _react2.default.createElement("div", { className: "weather-img" })
     ),
     _react2.default.createElement(
