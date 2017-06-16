@@ -13374,7 +13374,7 @@ var NavBar = function NavBar() {
       _reactRouterDom.NavLink,
       {
         onClick: function onClick() {
-          scrollAfterSearch('projects');
+          scrollAfterSearch('project-summary');
         },
         className: 'nav-link',
         activeClassName: 'selected',
@@ -13416,34 +13416,104 @@ __webpack_require__(261);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 var Projects = function Projects() {
   return _react2.default.createElement(
     "div",
-    { className: "projects", id: "projects" },
+    { className: "projects-container" },
     _react2.default.createElement(
-      "a",
-      { href: "https://cjorda15.github.io/cj-comp-challenge-3/", className: "img-container" },
-      _react2.default.createElement("div", { className: "static-comp-img" })
+      "p",
+      _defineProperty({ className: "project-summary", id: "project-summary" }, "className", "project-statement"),
+      " All of my projects generally consisted of being completed at most a week with at best one other person with usually new technology. Check out the rest of my projects on github.."
     ),
     _react2.default.createElement(
-      "a",
-      { href: "https://evening-harbor-90728.herokuapp.com", className: "img-container" },
-      _react2.default.createElement("div", { className: "space-img" })
-    ),
-    _react2.default.createElement(
-      "a",
-      { href: "https://stark-hamlet-69045.herokuapp.com/", className: "img-container" },
-      _react2.default.createElement("div", { className: "weather-img" })
-    ),
-    _react2.default.createElement(
-      "a",
-      { href: "https://github.com/cjorda15/NewNews", className: "img-container" },
-      _react2.default.createElement("div", { className: "news-img" })
-    ),
-    _react2.default.createElement(
-      "a",
-      { href: "https://damp-peak-42271.herokuapp.com/", className: "img-container" },
-      _react2.default.createElement("div", { className: "star-img" })
+      "div",
+      { className: "projects", id: "projects" },
+      _react2.default.createElement(
+        "section",
+        { className: "project-card" },
+        _react2.default.createElement(
+          "p",
+          { className: "project-summary" },
+          "One of my first CSS project to tackle a profesional static laylout"
+        ),
+        _react2.default.createElement(
+          "a",
+          { href: "https://cjorda15.github.io/cj-comp-challenge-3/", className: "img-container" },
+          _react2.default.createElement("div", { className: "static-comp-img" })
+        )
+      ),
+      _react2.default.createElement(
+        "section",
+        { className: "project-card" },
+        _react2.default.createElement(
+          "p",
+          { className: "project-summary" },
+          "Had fun using Canvas to make a video game, which was none other than SPACE INVADERS!"
+        ),
+        _react2.default.createElement(
+          "a",
+          { href: "https://evening-harbor-90728.herokuapp.com", className: "img-container" },
+          _react2.default.createElement("div", { className: "space-img" })
+        )
+      ),
+      _react2.default.createElement(
+        "section",
+        { className: "project-card" },
+        _react2.default.createElement(
+          "p",
+          _defineProperty({ className: "project-summary" }, "className", "project-summary"),
+          "React.js project that retrieved daily and hourly weather forecast from weatherundeground&#39s API"
+        ),
+        _react2.default.createElement(
+          "a",
+          { href: "https://stark-hamlet-69045.herokuapp.com/", className: "img-container" },
+          _react2.default.createElement("div", { className: "weather-img" })
+        )
+      ),
+      _react2.default.createElement(
+        "section",
+        { className: "project-card" },
+        _react2.default.createElement(
+          "p",
+          { className: "project-summary" },
+          "Redux/React.js project that retrieved the most popular news articles from the most popular news sources using new&#39s API. Also used react-router, express, and created my own database with knex.js"
+        ),
+        _react2.default.createElement(
+          "a",
+          { href: "https://github.com/cjorda15/NewNews", className: "img-container" },
+          _react2.default.createElement("div", { className: "news-img" })
+        )
+      ),
+      _react2.default.createElement(
+        "section",
+        { className: "project-card" },
+        _react2.default.createElement(
+          "p",
+          { className: "project-summary" },
+          "React.js project that retrieved and displayed Star Wars data from SWAPI&#39s API"
+        ),
+        _react2.default.createElement(
+          "a",
+          { href: "https://damp-peak-42271.herokuapp.com/", className: "img-container" },
+          _react2.default.createElement("div", { className: "star-img" })
+        )
+      ),
+      _react2.default.createElement(
+        "section",
+        { className: "project-card" },
+        _react2.default.createElement(
+          "p",
+          { className: "project-summary" },
+          " fun with jquery and react-router"
+        ),
+        _react2.default.createElement(
+          "a",
+          { href: "#", className: "img-container" },
+          _react2.default.createElement("div", { className: "fun-img" })
+        )
+      )
     )
   );
 };
@@ -14460,7 +14530,7 @@ exports = module.exports = __webpack_require__(15)(undefined);
 
 
 // module
-exports.push([module.i, ".projects{\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  width: 80%;\n  margin: 0px auto;\n}\n\n.space-img, .static-comp-img, .weather-img, .news-img, .star-img{\n  background-size: cover;\n  width: 300px;\n  height: 200px;\n  margin:0px;\n  display: inline-flex;\n}\n.static-comp-img{\nbackground-image:url(" + __webpack_require__(273) + ");\n}\n\n.space-img{\n  background-image:url(" + __webpack_require__(271) + ");\n}\n\n.weather-img{\n  background-image:url(" + __webpack_require__(274) + ")\n}\n\n.news-img{\n  background-image: url(" + __webpack_require__(270) + ")\n}\n\n.star-img{\n  background-image: url(" + __webpack_require__(272) + ")\n}\n\n\n\n.img-container{\n    width: 300px;\n    height:200px;\n    padding:5px;\n}\n", ""]);
+exports.push([module.i, ".projects{\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  width: 80%;\n  margin: 0px auto;\n  justify-content: center;\n}\n\n.project-card{\n  padding: 10px;\n}\n\n.space-img, .static-comp-img, .weather-img, .news-img, .star-img, .fun-img{\n  background-size: cover;\n  width: 300px;\n  height: 200px;\n  margin:0px;\n  display: inline-flex;\n  border-radius: 5px;\n}\n.static-comp-img{\nbackground-image:url(" + __webpack_require__(273) + ");\n}\n\n.space-img{\n  background-image:url(" + __webpack_require__(271) + ");\n}\n\n.weather-img{\n  background-image:url(" + __webpack_require__(274) + ")\n}\n\n.news-img{\n  background-image: url(" + __webpack_require__(270) + ")\n}\n\n.star-img{\n  background-image: url(" + __webpack_require__(272) + ")\n}\n\n.fun-img{\n  background: yellow;\n}\n\n.project-card{\n  display: flex;\n  align-items: center;\n}\n\n.img-container{\n    width: 300px;\n    height:200px;\n    padding:5px;\n}\n\n.project-statement{\n  opacity: 0.9;\n  font-family: 'Vibur',sans-serif;\n  width: 80%;\n  margin: 0px auto;\n  font-size: 30px;\n  background: #fff;\n  text-align: center;\n  padding: 5px;\n  border-radius: 4px;\n}\n\n.project-summary{\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: #000;\n  opacity: 0.95;\n  color: #fff;\n  padding: 3px;\n  font-family: 'Oswald', sans-serif;\n  width: 290px;\n  font-size: 20px;\n  text-align: center;\n  height: 200px;\n  border-radius: 5px;\n}\n\n\n @media (max-width:610px){\n  .project-card{\n    flex-direction: column;\n  }\n }\n", ""]);
 
 // exports
 
