@@ -5,7 +5,7 @@
   margin: 0px auto;
 }
 
-.space-img, .static-comp-img, .weather-img, .news-img, .space{
+.space-img, .static-comp-img, .weather-img, .news-img, .star{
   background-size: cover;
   width: 300px;
   height: 200px;
