@@ -24,3 +24,15 @@
   text-align: center;
   border: #fff 5px solid;
 }
+
+.about-me-poem{
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  background: white;
+  opacity: 0.9;
+  font-size: 20px;
+  line-height: 2.5;
+}
+.about-me-poem h3{
+  text-decoration: underline;
+}

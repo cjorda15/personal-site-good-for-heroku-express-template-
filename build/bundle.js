@@ -12991,14 +12991,122 @@ var AboutMe = function AboutMe() {
       { className: 'home-text' },
       'I am a Front-End Developer who balances technical precision with creativity and strong interpersonal skills. I seek to be a part of a team that I can continuously learn from and contribute to in a meaningful way. My primary goal for the rest of my life is to become a true craftsman of my trade. After going to over 20 countries spanning across 5 continents, most by sailboat, I have a deep thirst for adventure and continuing to learn more about the world around me. This drive couples well with how I approach wanting to learn inside and out all that there is to know about being a Front-End Engineer.'
     ),
+    _react2.default.createElement(
+      'div',
+      { className: 'about-me-poem' },
+      _react2.default.createElement(
+        'h3',
+        null,
+        '  Max Ehrmann'
+      ),
+      _react2.default.createElement(
+        'h3',
+        null,
+        'Desiderata'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        'Go placidly amid the noise and haste,',
+        _react2.default.createElement('br', null),
+        'and remember what peace there may be in silence.',
+        _react2.default.createElement('br', null),
+        'As far as possible without surrender',
+        _react2.default.createElement('br', null),
+        'be on good terms with all persons.',
+        _react2.default.createElement('br', null),
+        'Speak your truth quietly and clearly;',
+        _react2.default.createElement('br', null),
+        'and listen to others,',
+        _react2.default.createElement('br', null),
+        'even the dull and the ignorant;',
+        _react2.default.createElement('br', null),
+        'they too have their story.',
+        _react2.default.createElement('br', null),
+        'Avoid loud and aggressive persons,',
+        _react2.default.createElement('br', null),
+        'they are vexations to the spirit.',
+        _react2.default.createElement('br', null),
+        'If you compare yourself with others,',
+        _react2.default.createElement('br', null),
+        'you may become vain and bitter;',
+        _react2.default.createElement('br', null),
+        'for always there will be greater and lesser persons than yourself.',
+        _react2.default.createElement('br', null),
+        'Enjoy your achievements as well as your plans.',
+        _react2.default.createElement('br', null),
+        'Keep interested in your own career, however humble;',
+        _react2.default.createElement('br', null),
+        'it is a real possession in the changing fortunes of time.',
+        _react2.default.createElement('br', null),
+        'Exercise caution in your business affairs;',
+        _react2.default.createElement('br', null),
+        'for the world is full of trickery.',
+        _react2.default.createElement('br', null),
+        'But let this not blind you to what virtue there is;',
+        _react2.default.createElement('br', null),
+        'many persons strive for high ideals;',
+        _react2.default.createElement('br', null),
+        'and everywhere life is full of heroism.',
+        _react2.default.createElement('br', null),
+        'Be yourself.',
+        _react2.default.createElement('br', null),
+        'Especially, do not feign affection.',
+        _react2.default.createElement('br', null),
+        'Neither be cynical about love;',
+        _react2.default.createElement('br', null),
+        'for in the face of all aridity and disenchantment',
+        _react2.default.createElement('br', null),
+        'it is as perennial as the grass.',
+        _react2.default.createElement('br', null),
+        'Take kindly the counsel of the years,',
+        _react2.default.createElement('br', null),
+        'gracefully surrendering the things of youth.',
+        _react2.default.createElement('br', null),
+        'Nurture strength of spirit to shield you in sudden misfortune.',
+        _react2.default.createElement('br', null),
+        'But do not distress yourself with dark imaginings.',
+        _react2.default.createElement('br', null),
+        'Many fears are born of fatigue and loneliness.',
+        _react2.default.createElement('br', null),
+        'Beyond a wholesome discipline,',
+        _react2.default.createElement('br', null),
+        'be gentle with yourself.',
+        _react2.default.createElement('br', null),
+        'You are a child of the universe,',
+        _react2.default.createElement('br', null),
+        'no less than the trees and the stars;',
+        _react2.default.createElement('br', null),
+        'you have a right to be here.',
+        _react2.default.createElement('br', null),
+        'And whether or not it is clear to you,',
+        _react2.default.createElement('br', null),
+        'no doubt the universe is unfolding as it should.',
+        _react2.default.createElement('br', null),
+        'Therefore be at peace with God,',
+        _react2.default.createElement('br', null),
+        'whatever you conceive Him to be,',
+        _react2.default.createElement('br', null),
+        'and whatever your labors and aspirations,',
+        _react2.default.createElement('br', null),
+        'in the noisy confusion of life keep peace with your soul.',
+        _react2.default.createElement('br', null),
+        'With all its sham, drudgery, and broken dreams,',
+        _react2.default.createElement('br', null),
+        'it is still a beautiful world.',
+        _react2.default.createElement('br', null),
+        'Be cheerful.',
+        _react2.default.createElement('br', null),
+        'Strive to be happy.',
+        _react2.default.createElement('br', null),
+        'Max Ehrmann, Desiderata, Copyright 1952.'
+      )
+    ),
     _react2.default.createElement(_LinkList2.default, null)
   );
 };
 
 exports.default = AboutMe;
-
-// <div  className="about-me-img">
-// </div>
 
 /***/ }),
 /* 110 */
@@ -14263,7 +14371,7 @@ exports = module.exports = __webpack_require__(15)(undefined);
 
 
 // module
-exports.push([module.i, ".about-me{\n  width: 80%;\n  margin: auto;\n  height: 100%;\n  margin-top: 10px;\n}\n\n.about-me-img{\n  background-image: url(" + __webpack_require__(265) + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: center;\n  width:400px;\n  height:300px;\n}\n\n.home-text{\n  background: cadetblue;\n  padding: 12px;\n  opacity: 0.9;\n  color:#fff;\n  font-family: 'Oswald', sans-serif;\n  font-size: 22px;\n  text-align: center;\n  border: #fff 5px solid;\n}\n", ""]);
+exports.push([module.i, ".about-me{\n  width: 80%;\n  margin: auto;\n  height: 100%;\n  margin-top: 10px;\n}\n\n.about-me-img{\n  background-image: url(" + __webpack_require__(265) + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-position: center;\n  width:400px;\n  height:300px;\n}\n\n.home-text{\n  background: cadetblue;\n  padding: 12px;\n  opacity: 0.9;\n  color:#fff;\n  font-family: 'Oswald', sans-serif;\n  font-size: 22px;\n  text-align: center;\n  border: #fff 5px solid;\n}\n\n.about-me-poem{\n  font-family: 'Oswald', sans-serif;\n  text-align: center;\n  background: white;\n  opacity: 0.9;\n  font-size: 20px;\n  line-height: 2.5;\n}\n.about-me-poem h3{\n  text-decoration: underline;\n}\n", ""]);
 
 // exports
 
