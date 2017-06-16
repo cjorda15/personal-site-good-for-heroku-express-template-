@@ -13,11 +13,6 @@ class App extends Component {
     super(props)
   }
 
-  showSettings (event) {
-   event.preventDefault();
-   console.log('huh');
- }
-
   render() {
     return (
       <div className="App">

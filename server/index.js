@@ -24,6 +24,9 @@ if(process.env.NODE_ENV !== 'production'){
   })
 }
 
+app.get('/projects', (req,res)=> {
+  res.sendFile(path.resolve(__dirname+"/../src/index.html"))
+})
 
 app.get('/', (req,res) => {
   res.sendFile(path.resolve(__dirname+"/../src/index.html"))

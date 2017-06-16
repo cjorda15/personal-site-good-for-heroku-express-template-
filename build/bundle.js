@@ -13069,12 +13069,6 @@ var App = function (_Component) {
   }
 
   _createClass(App, [{
-    key: 'showSettings',
-    value: function showSettings(event) {
-      event.preventDefault();
-      console.log('huh');
-    }
-  }, {
     key: 'render',
     value: function render() {
       return _react2.default.createElement(
@@ -13317,7 +13311,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 var Projects = function Projects() {
   return _react2.default.createElement(
     "div",
-    { id: "projects" },
+    { "class": "projects", id: "projects" },
     _react2.default.createElement(
       "a",
       { href: "https://cjorda15.github.io/cj-comp-challenge-3/", className: "img-container" },
