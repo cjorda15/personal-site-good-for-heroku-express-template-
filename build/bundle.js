@@ -14488,7 +14488,7 @@ exports = module.exports = __webpack_require__(15)(undefined);
 
 
 // module
-exports.push([module.i, "*{\n  padding:0px;\n  margin: 0px;\n}\n\nbody {\n  margin: 0;\n  padding: 0;\n  font-family: sans-serif;\n  background-size: cover;\n  background-image: url(" + __webpack_require__(277) + ");\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  width: 100vw;\n  height: 100vh;\n  max-width: 1300px;\n}\n", ""]);
+exports.push([module.i, "*{\n  padding:0px;\n  margin: 0px;\n}\n\nbody {\n  padding: 0;\n  font-family: sans-serif;\n  background-size: cover;\n  background-image: url(" + __webpack_require__(277) + ");\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  width: 100vw;\n  height: 100vh;\n  max-width: 1300px;\n  margin:0px auto;\n}\n", ""]);
 
 // exports
 
