@@ -51,7 +51,6 @@ background-image:url('./Icon-Img-Folder/static.png');
 .img-container{
     width: 300px;
     height:200px;
-    padding:5px;
 }
 
 .project-statement{
@@ -64,6 +63,7 @@ background-image:url('./Icon-Img-Folder/static.png');
   text-align: center;
   padding: 5px;
   border-radius: 4px;
+  border:5px solid #000;
 }
 
 .project-summary{
@@ -75,16 +75,20 @@ background-image:url('./Icon-Img-Folder/static.png');
   color: #fff;
   padding: 3px;
   font-family: 'Oswald', sans-serif;
-  width: 290px;
+  width: 300px;
   font-size: 20px;
   text-align: center;
   height: 200px;
   border-radius: 5px;
 }
 
-
+.space-img:hover, .static-comp-img:hover, .weather-img:hover, .news-img:hover, .star-img:hover, .fun-img:hover{
+  border: 5px solid black;
+  border-radius: 10px;
+  transition: all .5s;
+}
  @media (max-width:610px){
   .project-card{
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
  }
