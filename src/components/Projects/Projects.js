@@ -38,7 +38,7 @@ const Projects = () => {
         </a>
       </section>
       <section className="project-card">
-        <p className="project-summary"> fun with jquery and react-router</p>
+        <p className="project-summary"> Not yet done with my playground consisting of react, express, css, react-router, and other great react libraries to mess around with generic, fun examples</p>
         <a href="https://stormy-scrubland-46126.herokuapp.com/" className="img-container">
           <div className = "fun-img"></div>
         </a>

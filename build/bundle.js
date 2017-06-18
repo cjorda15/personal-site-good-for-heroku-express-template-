@@ -13506,7 +13506,7 @@ var Projects = function Projects() {
         _react2.default.createElement(
           "p",
           { className: "project-summary" },
-          " fun with jquery and react-router"
+          " Not yet done with my playground consisting of react, express, css, react-router, and other great react libraries to mess around with generic, fun examples"
         ),
         _react2.default.createElement(
           "a",
