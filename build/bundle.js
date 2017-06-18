@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 279);
+/******/ 	return __webpack_require__(__webpack_require__.s = 280);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -5823,7 +5823,7 @@ var _resolvePathname = __webpack_require__(254);
 
 var _resolvePathname2 = _interopRequireDefault(_resolvePathname);
 
-var _valueEqual = __webpack_require__(278);
+var _valueEqual = __webpack_require__(279);
 
 var _valueEqual2 = _interopRequireDefault(_valueEqual);
 
@@ -13425,7 +13425,7 @@ var Projects = function Projects() {
     _react2.default.createElement(
       "p",
       _defineProperty({ className: "project-summary", id: "project-summary" }, "className", "project-statement"),
-      " All of my projects generally consisted of being completed at most a week with at best one other person with usually new technology. Check out the rest of my projects on github.."
+      " All of my projects generally consisted of being completed at most a week with at best one other person with usually new technology. Most are hosted on express and webpack Check out the rest of my projects on github.."
     ),
     _react2.default.createElement(
       "div",
@@ -13464,7 +13464,7 @@ var Projects = function Projects() {
         _react2.default.createElement(
           "p",
           _defineProperty({ className: "project-summary" }, "className", "project-summary"),
-          "React.js project that retrieved daily and hourly weather forecast from weatherundeground&#39s API"
+          "React.js project that retrieved daily and hourly weather forecast from weatherundeground API"
         ),
         _react2.default.createElement(
           "a",
@@ -13478,7 +13478,7 @@ var Projects = function Projects() {
         _react2.default.createElement(
           "p",
           { className: "project-summary" },
-          "Redux/React.js project that retrieved the most popular news articles from the most popular news sources using new&#39s API. Also used react-router, express, and created my own database with knex.js"
+          "Redux/React.js project that retrieved the most popular news articles from the most popular news sources using news.io API. Also used react-router, express, and created my own database with knex.js"
         ),
         _react2.default.createElement(
           "a",
@@ -13492,7 +13492,7 @@ var Projects = function Projects() {
         _react2.default.createElement(
           "p",
           { className: "project-summary" },
-          "React.js project that retrieved and displayed Star Wars data from SWAPI&#39s API"
+          "React.js project that retrieved and displayed Star Wars data from SWAPI API"
         ),
         _react2.default.createElement(
           "a",
@@ -14530,7 +14530,7 @@ exports = module.exports = __webpack_require__(15)(undefined);
 
 
 // module
-exports.push([module.i, ".projects{\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  width: 80%;\n  margin: 0px auto;\n  justify-content: center;\n}\n\n.project-card{\n  padding: 10px;\n}\n\n.space-img, .static-comp-img, .weather-img, .news-img, .star-img, .fun-img{\n  background-size: cover;\n  width: 300px;\n  height: 200px;\n  margin:0px;\n  display: inline-flex;\n  border-radius: 5px;\n}\n.static-comp-img{\nbackground-image:url(" + __webpack_require__(273) + ");\n}\n\n.space-img{\n  background-image:url(" + __webpack_require__(271) + ");\n}\n\n.weather-img{\n  background-image:url(" + __webpack_require__(274) + ")\n}\n\n.news-img{\n  background-image: url(" + __webpack_require__(270) + ")\n}\n\n.star-img{\n  background-image: url(" + __webpack_require__(272) + ")\n}\n\n.fun-img{\n  background: yellow;\n}\n\n.project-card{\n  display: flex;\n  align-items: center;\n}\n\n.img-container{\n    width: 300px;\n    height:200px;\n}\n\n.project-statement{\n  opacity: 0.9;\n  font-family: 'Vibur',sans-serif;\n  width: 80%;\n  margin: 0px auto;\n  font-size: 30px;\n  background: #fff;\n  text-align: center;\n  padding: 5px;\n  border-radius: 4px;\n  border:5px solid #000;\n}\n\n.project-summary{\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: #000;\n  opacity: 0.95;\n  color: #fff;\n  padding: 3px;\n  font-family: 'Oswald', sans-serif;\n  width: 300px;\n  font-size: 20px;\n  text-align: center;\n  height: 200px;\n  border-radius: 5px;\n}\n\n.space-img:hover, .static-comp-img:hover, .weather-img:hover, .news-img:hover, .star-img:hover, .fun-img:hover{\n  border: 5px solid black;\n  border-radius: 10px;\n  transition: all .5s;\n}\n @media (max-width:610px){\n  .project-card{\n    flex-direction: column-reverse;\n  }\n }\n", ""]);
+exports.push([module.i, ".projects{\n  display: flex;\n  flex-direction: row;\n  flex-wrap: wrap;\n  width: 80%;\n  margin: 0px auto;\n  justify-content: center;\n}\n\n.project-card{\n  padding: 10px;\n}\n\n.space-img, .static-comp-img, .weather-img, .news-img, .star-img, .fun-img{\n  background-size: cover;\n  width: 300px;\n  height: 200px;\n  margin:0px;\n  display: inline-flex;\n  border-radius: 5px;\n}\n.static-comp-img{\nbackground-image:url(" + __webpack_require__(274) + ");\n}\n\n.space-img{\n  background-image:url(" + __webpack_require__(272) + ");\n}\n\n.weather-img{\n  background-image:url(" + __webpack_require__(275) + ")\n}\n\n.news-img{\n  background-image: url(" + __webpack_require__(271) + ")\n}\n\n.star-img{\n  background-image: url(" + __webpack_require__(273) + ")\n}\n\n.fun-img{\n  background-image: url(" + __webpack_require__(270) + ");\n}\n\n.project-card{\n  display: flex;\n  align-items: center;\n}\n\n.img-container{\n    width: 300px;\n    height:200px;\n}\n\n.project-statement{\n  opacity: 0.9;\n  font-family: 'Vibur',sans-serif;\n  width: 80%;\n  margin: 0px auto;\n  font-size: 30px;\n  background: #fff;\n  text-align: center;\n  padding: 5px;\n  border-radius: 4px;\n  border:5px solid #000;\n}\n\n.project-summary{\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  background: #000;\n  opacity: 0.95;\n  color: #fff;\n  padding: 3px;\n  font-family: 'Oswald', sans-serif;\n  width: 300px;\n  font-size: 20px;\n  text-align: center;\n  height: 200px;\n  border-radius: 5px;\n}\n\n.space-img:hover, .static-comp-img:hover, .weather-img:hover, .news-img:hover, .star-img:hover, .fun-img:hover{\n  border: 5px solid black;\n  border-radius: 10px;\n  transition: all .5s;\n}\n @media (max-width:610px){\n  .project-card{\n    flex-direction: column-reverse;\n  }\n }\n", ""]);
 
 // exports
 
@@ -14544,7 +14544,7 @@ exports = module.exports = __webpack_require__(15)(undefined);
 
 
 // module
-exports.push([module.i, ".resume-container{\n  width: 100vw;\n  margin-top: 10px;\n  display: flex;\n  flex-direction: column;\n  max-width: 1300px;\n}\n\n.resume1{\n  height: 680px;\n  min-width:340px;\n  opacity: 0.95;\n  background-size: contain;;\n  background-repeat: no-repeat;\n  background-image: url(" + __webpack_require__(275) + ");\n}\n\n.resume2{\n  height: 680px;\n  min-width:340px;\n  opacity: 0.95;\n  background-size: contain;;\n  background-repeat: no-repeat;\n  background-image: url(" + __webpack_require__(276) + ");\n}\n\n@media (min-width:1100px){\n  .resume-container{\n    flex-direction: row;\n    justify-content: space-around;\n  }\n\n  .resume1, .resume2{\n    width: 700px;\n  }\n\n}\n", ""]);
+exports.push([module.i, ".resume-container{\n  width: 100vw;\n  margin-top: 10px;\n  display: flex;\n  flex-direction: column;\n  max-width: 1300px;\n}\n\n.resume1{\n  height: 680px;\n  min-width:340px;\n  opacity: 0.95;\n  background-size: contain;;\n  background-repeat: no-repeat;\n  background-image: url(" + __webpack_require__(276) + ");\n}\n\n.resume2{\n  height: 680px;\n  min-width:340px;\n  opacity: 0.95;\n  background-size: contain;;\n  background-repeat: no-repeat;\n  background-image: url(" + __webpack_require__(277) + ");\n}\n\n@media (min-width:1100px){\n  .resume-container{\n    flex-direction: row;\n    justify-content: space-around;\n  }\n\n  .resume1, .resume2{\n    width: 700px;\n  }\n\n}\n", ""]);
 
 // exports
 
@@ -14558,7 +14558,7 @@ exports = module.exports = __webpack_require__(15)(undefined);
 
 
 // module
-exports.push([module.i, "*{\n  padding:0px;\n  margin: 0px;\n  box-sizing: border-box;\n}\n\nbody {\n  padding: 0;\n  font-family: sans-serif;\n  background-size: cover;\n  background-image: url(" + __webpack_require__(277) + ");\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  width: 100vw;\n  height: 100vh;\n  max-width: 1300px;\n  margin:0px auto;\n}\n", ""]);
+exports.push([module.i, "*{\n  padding:0px;\n  margin: 0px;\n  box-sizing: border-box;\n}\n\nbody {\n  padding: 0;\n  font-family: sans-serif;\n  background-size: cover;\n  background-image: url(" + __webpack_require__(278) + ");\n  background-repeat: no-repeat;\n  background-attachment: fixed;\n  width: 100vw;\n  height: 100vh;\n  max-width: 1300px;\n  margin:0px auto;\n}\n", ""]);
 
 // exports
 
@@ -28385,52 +28385,58 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAe
 /* 270 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "712fccca7104a555a26e2ebd60b4d847.png";
+module.exports = __webpack_require__.p + "04da7453d083f53c46cd2b6c8a8b90d6.png";
 
 /***/ }),
 /* 271 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "00a7f8c49b775468c93889b8026938cf.png";
+module.exports = __webpack_require__.p + "712fccca7104a555a26e2ebd60b4d847.png";
 
 /***/ }),
 /* 272 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "85630c3e37ebf981fc4dba49ec3d9046.png";
+module.exports = __webpack_require__.p + "00a7f8c49b775468c93889b8026938cf.png";
 
 /***/ }),
 /* 273 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "bd7231668ec94cea9acb126ede4b5e9d.png";
+module.exports = __webpack_require__.p + "85630c3e37ebf981fc4dba49ec3d9046.png";
 
 /***/ }),
 /* 274 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "1f5285920d9f4d4d2bd5a8867a6af5ab.png";
+module.exports = __webpack_require__.p + "bd7231668ec94cea9acb126ede4b5e9d.png";
 
 /***/ }),
 /* 275 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "762629fe4917a6a37aec0d686491c9d2.jpg";
+module.exports = __webpack_require__.p + "1f5285920d9f4d4d2bd5a8867a6af5ab.png";
 
 /***/ }),
 /* 276 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "82d0b8d7fd3333b7d363afb8006cfaa0.jpg";
+module.exports = __webpack_require__.p + "762629fe4917a6a37aec0d686491c9d2.jpg";
 
 /***/ }),
 /* 277 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "eedd288afbcafad2b1f65e7a9cc7d108.jpg";
+module.exports = __webpack_require__.p + "82d0b8d7fd3333b7d363afb8006cfaa0.jpg";
 
 /***/ }),
 /* 278 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "eedd288afbcafad2b1f65e7a9cc7d108.jpg";
+
+/***/ }),
+/* 279 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -28476,7 +28482,7 @@ var valueEqual = function valueEqual(a, b) {
 exports.default = valueEqual;
 
 /***/ }),
-/* 279 */
+/* 280 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(108);

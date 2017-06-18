@@ -25,8 +25,8 @@ class App extends Component {
           return <Resume history = {history}/>}}/>
         <Route path="/projects" render = {(history) => {
           return <Projects history = {history}/>}}/>
-          <Route path="/contact" render = {(history) => {
-            return <Contact history = {history}/>}}/>
+        <Route path="/contact" render = {(history) => {
+          return <Contact history = {history}/>}}/>
         <Route path="/" render = {(history) => {
           return <MainContent history = {history}/>}}/>
        </Switch>

@@ -40,7 +40,7 @@ background-image:url('./Icon-Img-Folder/static.png');
 }
 
 .fun-img{
-  background: yellow;
+  background-image: url('./Icon-Img-Folder/fun.png');
 }
 
 .project-card{
