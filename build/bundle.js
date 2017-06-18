@@ -13510,7 +13510,7 @@ var Projects = function Projects() {
         ),
         _react2.default.createElement(
           "a",
-          { href: "#", className: "img-container" },
+          { href: "https://stormy-scrubland-46126.herokuapp.com/", className: "img-container" },
           _react2.default.createElement("div", { className: "fun-img" })
         )
       )
